@@ -1,0 +1,186 @@
+:root {
+    /*Background Colors for works*/
+    --page-bg-color: #FFFFFF;
+    --first-bg-color: #2F303A;
+    --second-bg-color: #F5F4FA;
+
+    /*Text Colors for works*/
+    --main-text-color: #212121;
+    --second-text-color: #FFFFFF;
+    --description-text-color: #757575;
+    --logo-text-color: #000000;
+
+    /*Text Colors for hover and logo*/
+    --active-text-color: #2196F3;
+
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+
+}
+
+body {
+    background-color: var(--page-bg-color);
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    color: var(--main-text-color);
+    letter-spacing: 0.03em;
+}
+
+.main-screen, .footer {
+    background: var(--first-bg-color);
+}
+
+.our-team {
+    background: var(--second-bg-color);
+}
+
+.lists {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-style: normal;
+}
+
+.btn {
+    border: none;
+    background: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo-word {
+    color: var(--active-text-color);
+}
+
+.logo-white {
+    color: var(--second-text-color);
+}
+
+.logo-black {
+    color: var(--logo-text-color);
+}
+
+.navigation-element {
+    font-size: 14px;
+    line-height: 1.15;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.navigation-element:hover, .navigation-element:focus {
+    color: var(--active-text-color);
+}
+
+.navigation-contact {
+    color: var(--description-text-color);
+}
+
+.order-btn {
+    border: 1px solid var(--active-text-color);
+    background: var(--active-text-color);
+    color: var(--second-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    letter-spacing: 0.06em;
+}
+
+.order-btn:hover, .order-btn:focus {
+    background: none;
+    color: var(--active-text-color);
+}
+
+.address-element {
+    color: var(--footer-text-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.address-element:hover, .address-element:active {
+    color: var(--second-text-color);
+}
+
+.btn-menu-element {
+    background: var(--second-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+.btn-menu-element:hover, .btn-menu-element:focus {
+    background: var(--active-text-color);
+    color: var(--second-text-color);
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.main-title {
+    font-size: 44px;
+    line-height: 1.4;
+    font-weight: 900;
+    color: var(--second-text-color);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.widgets-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+}
+
+.widgets-description {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--description-text-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.team-card {
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.card-title {
+    font-weight: 500;
+}
+
+.card-description {
+    color: var(--description-text-color);
+}
+
+.team-card {
+    background: var(--second-text-color);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 4px 4px;
+}
+
+.project-card {
+    border: 1px solid #EEEEEE;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.project-description {
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--description-text-color);
+}
